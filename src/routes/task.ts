@@ -23,7 +23,6 @@ router.post(
   async (req: Request, res: Response): Promise<Response> => {
     const task: Task = await TaskModel.create({ ...req.body });
     return res.status(201).json(task);
-    console.log();
   }
 );
 
