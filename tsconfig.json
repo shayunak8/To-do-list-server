@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "sourceRoot": ".",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "target": "esnext",
+    "moduleResolution": "Node"
+  }
+}
